@@ -10,9 +10,9 @@ export const contactConfig = {
       message: 'Message',
     },
     placeholders: {
-      name: 'Your name',
-      email: 'your.email@example.com',
-      phone: '+1 (555) 123-4567',
+      name: 'Kiran Kumar Rega',
+      email: 'kirankumar.rega@example.com',
+      phone: '+91 8500044241',
       message: 'Tell me about your project...',
     },
     submitButton: 'Send Message',

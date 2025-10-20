@@ -5,30 +5,17 @@ import Monitor from '@/components/svgs/devices/Monitor';
 import Mouse from '@/components/svgs/devices/Mouse';
 import Phone from '@/components/svgs/devices/Phone';
 
-
 export const devices = [
   {
-    name: 'MacBook Pro 16" M4 46GB 512GB',
+    name: 'MacBook Pro 16" M1 8GB 512GB',
     icon: <Laptop className="size-4" />,
   },
   {
-    name: 'LG Ultragear 27GN650 (27 inch, 68.5 cm)',
-    icon: <Monitor className="size-4" />,
-  },
-  {
-    name: 'Cosmic Byte firefly Mechanical Keyboard',
-    icon: <Keyboard className="size-4" />,
-  },
-  {
-    name: 'Ideapad Gaming Mouse',
-    icon: <Mouse className="size-4" />,
-  },
-  {
-    name: 'Crossbeats Roar 2.0 (Special Addition)',
+    name: 'Nord 2 buds',
     icon: <Headphones className="size-4" />,
   },
   {
-    name: 'Samsung S23 (256 GB)',
+    name: 'Nothing 2a (256 GB)',
     icon: <Phone className="size-4" />,
   },
 ];
@@ -50,11 +37,9 @@ export const webExtensions = [
 ];
 
 export const software = [
-  { name: 'Dia', href: 'https://www.diabrowser.com/' },
-  { name: 'Zen Browser', href: 'https://zen-browser.app/' },
+  { name: 'Comet', href: 'https://www.perplexity.ai/comet' },
   { name: 'Discord', href: 'https://discord.com/download' },
   { name: 'Notion', href: 'https://www.notion.so/desktop' },
-  { name: 'TickTick', href: 'https://ticktick.com/download' },
   {
     name: 'Microsoft Power Toys',
     href: 'https://www.microsoft.com/en-us/p/powertoys/9nblggh4nqj3?activetab=pivot:overviewtab',
@@ -63,11 +48,6 @@ export const software = [
   {
     name: 'Free Download Manager',
     href: 'https://www.freedownloadmanager.org/',
-  },
-  { name: 'OBS Studio', href: 'https://obsproject.com/' },
-  {
-    name: 'NVIDIA Broadcast',
-    href: 'https://www.nvidia.com/en-us/geforce/geforce-experience/broadcast/',
   },
   { name: 'VLC', href: 'https://www.videolan.org/vlc/' },
 ];

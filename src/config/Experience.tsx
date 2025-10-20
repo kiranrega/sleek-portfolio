@@ -1,3 +1,4 @@
+import Github from '@/components/svgs/Github';
 import AWS from '@/components/technologies/AWS';
 import BootStrap from '@/components/technologies/BootStrap';
 import Bun from '@/components/technologies/Bun';
@@ -6,6 +7,7 @@ import ExpressJs from '@/components/technologies/ExpressJs';
 import Figma from '@/components/technologies/Figma';
 import Html from '@/components/technologies/Html';
 import JavaScript from '@/components/technologies/JavaScript';
+import MaterialUIIcon from '@/components/technologies/MaterailUI';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
 import NodeJs from '@/components/technologies/NodeJs';
@@ -13,6 +15,7 @@ import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Postman from '@/components/technologies/Postman';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import SonarQube from '@/components/technologies/SonarQube';
 import TypeScript from '@/components/technologies/TypeScript';
 import Vercel from '@/components/technologies/Vercel';
 
@@ -40,26 +43,21 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    isCurrent: false,
-    company: 'Prepeasy',
-    position: 'Founding Engineer',
-    location: 'Freelance',
-    image: '/company/prepeasy.png',
+    isCurrent: true,
+    company: '24-7 IntouchCX',
+    position: 'Junior Software Engineer',
+    location: 'Hyderabad',
+    image: '/company/intouch.svg',
     description: [
-      'Independently architected and developed end-to-end full-stack solutions for core product features, resulting in 95% cost reduction in AI interview services.',
-      'Single-handedly engineered and deployed a scalable AI Interview Platform, implementing real-time leaderboard analytics and automated personalized interview feedback system, reducing per-session costs from *$7* to *$0.30*.',
-      'Designed and developed comprehensive AI Resume Builder with automated optimization features, increasing user engagement by generating tailored resume recommendations and industry-specific summaries.',
-      'Built and integrated an AI-powered Cover Letter Generator with customizable templates, improving user application success rates through personalized content generation.',
-      'Engineered a complete Learning Management System (LMS) with an integrated Quiz Platform, featuring progress tracking and performance analytics.',
+      'Developed the Roster Preview feature and integrated a dynamic *Form View popup* to enhance admin usability and streamline workflow visibility, improving task completion rates by 40%.',
+      'Collaborated closely with designers and QA to ship pixel-perfect components and consistently met sprint deliverables with zero post-deployment critical issues.',
+      'Handled POC screens for new modules, helping leadership visualize and validate upcoming feature ideas while reducing validation cycle time by 30%.',
+      'Fixed high-priority SonarQube issues to improve code quality and ensure system stability during releases, maintaining zero critical vulnerabilities in production.',
+      'Actively participated in daily standups, sprint planning, and retrospectives as part of an Agile team, maintaining 98% sprint completion rate and fostering continuous improvement.',
     ],
-    startDate: 'April 2025',
+    startDate: 'May 2024',
     endDate: 'June 2025',
     technologies: [
-      {
-        name: 'Next.js',
-        href: 'https://nextjs.org/',
-        icon: <NextJs />,
-      },
       {
         name: 'Express',
         href: 'https://expressjs.com/',
@@ -76,24 +74,9 @@ export const experiences: Experience[] = [
         icon: <ReactIcon />,
       },
       {
-        name: 'Prisma',
-        href: 'https://www.prisma.io/',
-        icon: <Prisma />,
-      },
-      {
         name: 'PostgreSQL',
         href: 'https://www.postgresql.org/',
         icon: <PostgreSQL />,
-      },
-      {
-        name: 'Vercel',
-        href: 'https://vercel.com/',
-        icon: <Vercel />,
-      },
-      {
-        name: 'AWS',
-        href: 'https://aws.amazon.com/',
-        icon: <AWS />,
       },
       {
         name: 'Postman',
@@ -101,41 +84,35 @@ export const experiences: Experience[] = [
         icon: <Postman />,
       },
       {
-        name: 'Bun',
-        href: 'https://bun.sh/',
-        icon: <Bun />,
+        name: 'Github',
+        href: 'https://github.com',
+        icon: <Github />,
+      },
+      {
+        name: 'SonarQube',
+        href: 'https://www.sonarsource.com/',
+        icon: <SonarQube />,
       },
     ],
-    website: 'https://prepeasy.ai',
-    github: 'https://github.com/prepeasy',
+    website: '',
+    github: '',
   },
   {
     isCurrent: false,
-    company: 'Expelee',
-    position: 'SDE-1 (Full Stack) Intern',
-    location: 'Dubai, UAE (Remote)',
-    image: '/company/expelee.png',
+    company: 'Exteneded Web AppTech',
+    position: 'Software Developer',
+    location: 'Hyderabad, Telangana',
+    image: '/company/extwebtech.png',
     description: [
-      '*Riskmitra (riskmitra.com)*: Built full-stack product with Next.js, Tailwind CSS, Framer Motion, shadcn, wallet integration, and GitBook integration.',
-      '*Core AI (core-ai.me)*: Designed and developed with Next.js, Tailwind CSS, Framer Motion, shadcn, focusing on scalability and modular UI design.',
-      '*GPU AI (gpuai.me)*: Integrated Three.js for interactive 3D elements alongside full-stack features from Core AI setup.',
-      '*Altranium (gaming.altranium.com)*: Developed immersive gaming platform using Three.js, MERN, Tailwind, and Framer Motion.',
-      '*Pars Network (parsnetwork.me)*: Engineered landing experience with MERN, Tailwind CSS, and GSAP for advanced animations and transitions.',
-      '*TEQ Network (teq-network.vercel.app)*: Designed and developed landing page using MERN, Tailwind CSS, and Web3 wallet integration.',
+      '*Integrated 20+ REST APIs with Axios* and improved API response handling using React Query, enhancing data fetching efficiency and user experience across the application.',
+      '*Improved user engagement by developing scalable user profile and Post a Project features* in a high-impact project, resulting in increased platform interaction.',
+      '*Optimized application load times dramatically through expert use of memoization, dynamic imports, and lazy loading,* delivering a faster, more responsive user experience with 50% improved performance metrics.',
+      '*Improved code quality through TDD using Jest and React Testing Library with 80% test coverage*, ensuring robust and maintainable codebase standards.',
+      '*Mentored junior developers, conducted code reviews, and implemented ESLint + Prettier standards,* fostering team growth and maintaining consistent code quality across projects.',
     ],
-    startDate: 'Aug 2023',
-    endDate: 'April 2025',
+    startDate: 'March 2023',
+    endDate: 'April 2024',
     technologies: [
-      {
-        name: 'Bun',
-        href: 'https://bun.sh/',
-        icon: <Bun />,
-      },
-      {
-        name: 'Express',
-        href: 'https://expressjs.com/',
-        icon: <ExpressJs />,
-      },
       {
         name: 'Figma',
         href: 'https://figma.com/',
@@ -145,31 +122,6 @@ export const experiences: Experience[] = [
         name: 'JavaScript',
         href: 'https://javascript.com/',
         icon: <JavaScript />,
-      },
-      {
-        name: 'MongoDB',
-        href: 'https://mongodb.com/',
-        icon: <MongoDB />,
-      },
-      {
-        name: 'Next.js',
-        href: 'https://nextjs.org/',
-        icon: <NextJs />,
-      },
-      {
-        name: 'Node.js',
-        href: 'https://nodejs.org/',
-        icon: <NodeJs />,
-      },
-      {
-        name: 'PostgreSQL',
-        href: 'https://postgresql.org/',
-        icon: <PostgreSQL />,
-      },
-      {
-        name: 'Prisma',
-        href: 'https://prisma.io/',
-        icon: <Prisma />,
       },
       {
         name: 'React',
@@ -192,58 +144,18 @@ export const experiences: Experience[] = [
         icon: <Vercel />,
       },
       {
-        name: 'AWS',
-        href: 'https://aws.amazon.com/',
-        icon: <AWS />,
+        name: 'Material UI',
+        href: 'https://mui.com/material-ui/',
+        icon: <MaterialUIIcon />,
+      },
+      {
+        name: 'Github',
+        href: 'https://github.com',
+        icon: <Github />,
       },
     ],
-    website: 'https://expelee.com',
-    x: 'https://x.com/0xExpelee',
-    linkedin: 'https://www.linkedin.com/company/expelee',
-    github: 'https://github.com/expeleeOfficial',
-  },
-  {
-    isCurrent: false,
-    company: 'Flameloop',
-    position: 'Junior Frontend Developer',
-    location: 'Indore, India (offline)',
-    image: '/company/loop.png',
-    description: [
-      'Developed and maintained web applications using HTML, CSS, and JavaScript.',
-      'Collaborated with cross-functional teams to deliver high-quality software on time.',
-      'Design & Developed multiple websites for clients.',
-    ],
-    startDate: 'June 2023',
-    endDate: 'July 2023',
-    website: 'https://flameloop.com',
-    technologies: [
-      {
-        name: 'HTML',
-        href: 'https://html.com/',
-        icon: <Html />,
-      },
-      {
-        name: 'CSS',
-        href: 'https://css.com/',
-        icon: <CSS />,
-      },
-      {
-        name: 'JavaScript',
-        href: 'https://javascript.com/',
-        icon: <JavaScript />,
-      },
-      {
-        name: 'Figma',
-        href: 'https://figma.com/',
-        icon: <Figma />,
-      },
-      {
-        name: 'BootStrap',
-        href: 'https://getbootstrap.com/',
-        icon: <BootStrap />,
-      },
-    ],
-    x: 'https://x.com/Flameloop149578',
-    linkedin: 'https://www.linkedin.com/company/flameloop',
+    website: 'https://www.extwebtech.com/',
+    linkedin: 'https://www.linkedin.com/company/extwebtech',
+    github: '',
   },
 ];
