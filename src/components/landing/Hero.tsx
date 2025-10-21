@@ -80,6 +80,9 @@ export default function Hero() {
               key={index}
               variant={button.variant as 'outline' | 'default'}
             >
+              {button.icon === 'Opportunities' && (
+                <div className="size-2 rounded-full bg-green-500 animate-pulse"></div>
+              )}
               {IconComponent && <IconComponent />}
               <Link href={button.href}>{button.text}</Link>
             </Button>

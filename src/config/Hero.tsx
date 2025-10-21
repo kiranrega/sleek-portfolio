@@ -54,7 +54,7 @@ export const skillComponents = {
 export const heroConfig = {
   // Personal Information
   name: 'Kiran',
-  title: 'A Full Stack web developer.',
+  title: 'A MERN Stack developer.',
   avatar: '/assets/logo.png',
 
   // Skills Configuration
@@ -75,20 +75,32 @@ export const heroConfig = {
       component: 'NextJs',
     },
     {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
+      name: 'Node.js',
+      href: 'https://nodejs.org/',
+      component: 'NodeJs',
     },
+    // {
+    //   name: 'Express',
+    //   href: 'https://expressjs.com/',
+    //   component: 'Express',
+    // },
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. driven by a keen eye for aesthetics and seamless user experiences.',
-  },
+      // 'I build interactive web apps using {skills:0}, {skills:1}, {skills:2} and {skills:3}, With a focus on <b>UI design.</b> Driven by a keen eye for aesthetics and seamless user experiences.',
+      'Crafting engaging, fast, and accessible web experiences with {skills:0}, {skills:1}, {skills:2}, and {skills:3} I enjoy turning complex ideas into simple, intuitive interfaces with a focus on <b>UI design</b> and <b>Performance.</b>',
+    },
 
   // Buttons Configuration
   buttons: [
+    {
+      variant: 'secondary',
+      text: 'Open to opportunities',
+      href: '#',
+      icon: 'Opportunities',
+    },
     {
       variant: 'outline',
       text: 'Resume / CV',

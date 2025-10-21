@@ -17,7 +17,7 @@ import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-import ArrowRight from '../svgs/ArrowRight';
+// import ArrowRight from '../svgs/ArrowRight';
 import Github from '../svgs/Github';
 import PlayCircle from '../svgs/PlayCircle';
 import Website from '../svgs/Website';

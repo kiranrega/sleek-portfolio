@@ -22,5 +22,5 @@ export const mySkills = [
 
 export const about = {
   name: 'Kiran Kumar Rega',
-  description: `I'm a Full Stack web developer., I love building products to solve real-world problems. I'm specialized in building MVP's.`,
+  description: `I'm a MERN Stack web developer., I love building products to solve real-world problems. I'm specialized in building MVP's.`,
 };
