@@ -39,7 +39,6 @@ export default function About() {
   );
 }
 
-
 // "use client";
 // import React, { useState, useRef, ReactHTMLElement } from "react";
 // import Image from "next/image";
